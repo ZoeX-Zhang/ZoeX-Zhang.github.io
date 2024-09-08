@@ -30,7 +30,7 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-                  EXTERNAL_REPOSITORY: ZoeX-Zhang/ZoeX-Zhang.github.io # 改成你的仓库
+                  EXTERNAL_REPOSITORY: ZoeX-Zhang/zoex-zhang.github.io # 改成你的仓库
                   PUBLISH_BRANCH: gh-pages
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
